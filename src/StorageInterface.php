@@ -18,10 +18,13 @@ interface StorageInterface {
   /**
    * Set value storage.
    *
-   * @return mixed
-   *   Storage value.
+   * @param mixed $value
+   *   Value.
+   *
+   * @return mixed Storage value.
+   * Storage value.
    */
-  public function set();
+  public function set($value);
 
   /**
    * Delete value from storage.
